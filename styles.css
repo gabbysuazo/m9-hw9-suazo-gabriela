@@ -7,3 +7,31 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+
+body {
+    background-color: #618e9c;
+    font-family: Helvetica, sans-serif;
+}
+
+article {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-container {
+    width: 80%;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 2rem;
+    color: #f8f8f8;
+}
